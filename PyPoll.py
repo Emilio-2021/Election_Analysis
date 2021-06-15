@@ -16,6 +16,7 @@ file_to_save = os.path.join("analysis", "election_analysis.txt")
 with open(file_to_load) as election_data:
      # Read the file object with the reader function.
      file_reader = csv.reader(election_data)
+     
      # Read and print the header row.
      headers = next(file_reader)
-     print(headers)
+     print(headers) 
